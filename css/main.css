@@ -1,0 +1,134 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 1900px;
+  font-family: "Open Sans", sans-serif;
+}
+.nav {
+  background-color: #1d2126;
+}
+.nav-container {
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.nav-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.logo {
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.nav-menu li a {
+  padding: 6px 13px;
+  text-decoration: none;
+  color: #a4aead;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 17px;
+}
+.nav-menu li a.active {
+  padding: 4px 11px;
+  border: 2px solid #23b7a4;
+  border-radius: 5px;
+  color: #23b7a4;
+  font-size: 14px;
+}
+.nav-menu li a:hover {
+  padding: 4px 11px;
+  border: 2px solid #5b6168;
+  border-radius: 5px;
+}
+.header {
+  width: 100%;
+  min-height: 660px;
+  position: relative;
+}
+.slide-1 {
+  width: 1110px;
+  height: 675px;
+  margin: auto;
+  position: absolute;
+}
+.slide-1 h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: 400;
+  padding: 225px 0 28px;
+}
+.slide-1 p {
+  width: 646px;
+  height: 44px;
+  color: #ccd0d7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+.slide-1 a {
+  display: inline-block;
+  text-decoration: none;
+  width: 124px;
+  height: 44px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 5px;
+}
+.slide-1 a:hover {
+  background-color: #23b7a4;
+  border: 2px solid #23b7a4;
+  border-radius: 5px;
+}
+button {
+  display: none;
+}
+.splide-list {
+  display: block;
+}
+.splide__pagination__page {
+  display: block;
+  content: "";
+  bottom: 30px;
+  right: 0;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: none;
+}
+.splide__pagination {
+  justify-content: start;
+  right: 0;
+  bottom: 0;
+}
+.splide__pagination__page.is-active {
+  background: #fff;
+}
+.splide__pagination li {
+  margin-left: 7px;
+}
